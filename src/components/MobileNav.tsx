@@ -10,17 +10,17 @@ const MobileNav = () => {
   return (
     <Sheet>
         <SheetTrigger>
-            <Menu className='text-blue-500' />
+            <Menu className='text-white' />
         </SheetTrigger>
         <SheetContent className='space-y-3'>
             <SheetTitle>
                 {isAuthenticated ? (
                     <span className='flex item-center font-bold gap-2'>
-                        <CircleUserRound className='text-blue-500' />
+                        <CircleUserRound className='text-white' />
                         {user?.email}
                     </span>
                 ) : (
-                    <span> Welcome to Edomb</span>
+                    <span> Welcome to Hungry</span>
                 )}
             </SheetTitle>
             <Separator />
