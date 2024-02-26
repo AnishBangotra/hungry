@@ -9,6 +9,9 @@ export default function MobileNavLinks() {
         <Link to="/profile" className="flex bg-white items-center font-bold hover:text-blue-500">
             Profile
         </Link>
+        <Link to="/manage-restaurant" className='font-bold hover:text-blue-500'>
+            Manage Restaurant
+        </Link>
         <Button 
             onClick={() => logout()}
             className="flex item items-center px-3 font-bold hover:bg-gray-500">

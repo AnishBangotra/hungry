@@ -9,11 +9,16 @@ const UsernameMenu = () => {
     const { user, logout } = useAuth0();
   return (
     <DropdownMenu>
-        <DropdownMenuTrigger className='flex items-center px-3 font-bold hover:text-blue-500 gap-2'>
-            <CircleUserRound className='text-blue-500'/>
+        <DropdownMenuTrigger className='flex items-center px-3 font-bold hover:text-blue-500 hover: text-white gap-2'>
+            <CircleUserRound className='text-white'/>
             {user?.email}
         </DropdownMenuTrigger>
         <DropdownMenuContent>
+            <DropdownMenuItem>
+                <Link to="/manage-restaurant" className='font-bold hover:text-blue-500'>
+                    Manage Restaurant
+                </Link>
+            </DropdownMenuItem>
             <DropdownMenuItem>
                 <Link to="/profile" className='font-bold hover:text-blue-500'>
                     Profile
