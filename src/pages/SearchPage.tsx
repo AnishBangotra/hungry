@@ -69,11 +69,11 @@ const SearchPage = () => {
   }
 
   if (isLoading) {
-    <span>Loading ...</span>;
+    <span className='text-white'>Loading ...</span>;
   }
   
   if (!results?.data || !city) {
-    return <span>No results found</span>
+    return <span className='text-white'>No results found</span>
   }
 
   return (

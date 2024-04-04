@@ -102,7 +102,7 @@ const DetailPage = () => {
     }
 
     if (isLoading || !restaurant) {
-        return "Loading...";
+        return <span className="text-white">Loading</span>
     }
 
     return (
