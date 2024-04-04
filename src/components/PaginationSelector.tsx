@@ -24,16 +24,16 @@ const PaginationSelector = ({ page, pages, onPageChange }:Props) => {
             <PaginationContent>
                 {page !== 1 &&  (
                     <PaginationItem>
-                        <PaginationPrevious href="#" onClick={() => onPageChange(page - 1)} />
+                        <PaginationPrevious className="text-white" href="#" onClick={() => onPageChange(page - 1)} />
                     </PaginationItem>
                 )}
                 {pageNumbers.map((number) => (
-                    <PaginationLink href="#" onClick={() => onPageChange(number)} isActive={page == number}>
+                    <PaginationLink className="text-black" href="#" onClick={() => onPageChange(number)} isActive={page == number}>
                         {number}
                     </PaginationLink>
                 ))}
                 {page !== pageNumbers.length && (
-                    <PaginationItem>
+                    <PaginationItem className="text-white">
                         <PaginationNext href="#" onClick={() => onPageChange(page + 1)}/>
                     </PaginationItem>
                 )}

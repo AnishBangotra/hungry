@@ -33,7 +33,7 @@ const handleCuisinesReset = () => onChange([]);
     return(
         <>
             <div className="flex justify-between items-center px-2">
-                <div className="text-md font-semibold mb-2">
+                <div className="text-md font-semibold mb-2 text-white">
                     Filter By Cuisine
                 </div>
                 <div onClick={handleCuisinesReset} className="text-sm font-semibold mb-2 underline cursor-pointer text-blue-500">
@@ -44,7 +44,7 @@ const handleCuisinesReset = () => onChange([]);
                 {cuisineList.slice(0, isExpanded ? cuisineList.length : 7).map((cuisine) => {
                     const isSelected = selectedCuisines
                     .includes(cuisine);
-                    return <div className="flex">
+                    return <div className="flex text-white">
                             <input id={`cuisine_${cuisine}`}
                                 type="checkbox"
                                 className="hidden"
@@ -67,8 +67,8 @@ const handleCuisinesReset = () => onChange([]);
                     variant="link" 
                     className="mt-4 flex-1"
                 >
-                    {isExpanded ? (<span className="flex flex-row items-center">View Less <ChevronUp /></span>) : (
-                        <span className="flex flex-row items-center">View More <ChevronDown /></span>
+                    {isExpanded ? (<span className="flex flex-row items-center text-white">View Less <ChevronUp /></span>) : (
+                        <span className="flex flex-row items-center text-white">View More <ChevronDown /></span>
                     )}
                 </Button>
             </div>
