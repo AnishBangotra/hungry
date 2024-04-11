@@ -7,11 +7,11 @@ const OrderStatusPage = () => {
     const { orders, isLoading } = useGetMyOrders();
 
     if (isLoading) {
-        return "Loading..."
+        return <span className="text-white">Loading...</span>
     }
 
     if(!orders || orders.length === 0) {
-        return "No Orders found";
+        return <span className="text-white">No Orders found</span>
     }
 
     return(
