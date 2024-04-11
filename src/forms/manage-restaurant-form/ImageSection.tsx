@@ -11,8 +11,8 @@ function ImageSection() {
   return (
     <div className="space-y-2">
         <div>
-            <h2 className="text-2xl font-bold">Image</h2>
-            <FormDescription>
+            <h2 className="text-2xl font-bold text-white">Image</h2>
+            <FormDescription className="text-white">
                 Add an image that will be displayed on your restaurant listing in the search results.
                 Adding a new image will overwrite the existing one.
             </FormDescription>

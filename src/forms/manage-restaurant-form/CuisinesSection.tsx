@@ -14,8 +14,8 @@ import {
     return (
       <div className="space-y-2">
         <div>
-          <h2 className="text-2xl font-bold">Cuisines</h2>
-          <FormDescription>
+          <h2 className="text-2xl font-bold text-white">Cuisines</h2>
+          <FormDescription className="text-white">
             Select the cuisines that your restaurant serves
           </FormDescription>
         </div>

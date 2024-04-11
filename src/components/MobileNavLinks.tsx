@@ -9,6 +9,9 @@ export default function MobileNavLinks() {
         <Link to="/profile" className="flex bg-white items-center font-bold hover:text-blue-500">
             Profile
         </Link>
+        <Link to="/order-status" className="flex bg-white items-center font-bold hover:text-blue-500">
+            Orders
+        </Link>
         <Link to="/manage-restaurant" className='font-bold hover:text-blue-500'>
             Manage Restaurant
         </Link>
