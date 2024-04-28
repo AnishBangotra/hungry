@@ -6,7 +6,7 @@ import { Separator } from './ui/separator';
 import { Button } from './ui/button';
 
 const UsernameMenu = () => {
-    const { user, logout } = useAuth0();
+  const { user, logout } = useAuth0();
   return (
     <DropdownMenu>
         <DropdownMenuTrigger className='flex items-center px-3 font-bold hover:text-blue-500 hover: text-white gap-2'>
