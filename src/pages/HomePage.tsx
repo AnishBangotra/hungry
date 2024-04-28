@@ -30,7 +30,7 @@ const HomePage = () => {
                     Order takeaway even faster!
                 </span>
                 <span>
-                    Download the Edomb App for faster ordering and personalized recommendations.
+                    Download the Hungry App for faster ordering and personalized recommendations.
                 </span>
                 <img src={appDownloadImage} />
             </div>
