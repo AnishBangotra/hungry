@@ -55,7 +55,7 @@ const UserProfileForm = ({
                     <FormItem>
                         <FormLabel className="text-white">Email</FormLabel>
                         <FormControl>
-                            <Input {...field} disabled className="bg-white"/>
+                            <Input {...field} disabled className="bg-white text-black"/>
                         </FormControl>
                     </FormItem>
                 )} 
@@ -64,7 +64,7 @@ const UserProfileForm = ({
                     <FormItem>
                         <FormLabel className="text-white">Name</FormLabel>
                         <FormControl>
-                            <Input {...field} className="bg-white"/>
+                            <Input {...field} className="bg-white text-black"/>
                         </FormControl>
                         <FormMessage />
                     </FormItem>
@@ -76,7 +76,7 @@ const UserProfileForm = ({
                         <FormItem className="flex-1">
                             <FormLabel className="text-white">AddressLine 1</FormLabel>
                             <FormControl>
-                                <Input {...field} className="bg-white"/>
+                                <Input {...field} className="bg-white text-black"/>
                             </FormControl>
                             <FormMessage />
                         </FormItem>
@@ -86,7 +86,7 @@ const UserProfileForm = ({
                     <FormItem className="flex-1">
                         <FormLabel className="text-white">City</FormLabel>
                         <FormControl>
-                            <Input {...field} className="bg-white"/>
+                            <Input {...field} className="bg-white text-black"/>
                         </FormControl>
                         <FormMessage />
                     </FormItem>
@@ -97,7 +97,7 @@ const UserProfileForm = ({
                     <FormItem className="flex-1">
                         <FormLabel className="text-white">Country</FormLabel>
                         <FormControl>
-                            <Input {...field} className="bg-white"/>
+                            <Input {...field} className="bg-white text-black"/>
                         </FormControl>
                         <FormMessage />
                     </FormItem>
